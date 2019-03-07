@@ -4,7 +4,7 @@ def game_hash
       :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
       :players => {
-        name => {
+        "Alan Anderson" => {
           :number
           :shoe
           :points
@@ -14,7 +14,7 @@ def game_hash
           :blocks
           :slam_dunks
         },
-        name => {
+        "Reggie Evans" => {
           :number
           :shoe
           :points
@@ -24,7 +24,7 @@ def game_hash
           :blocks
           :slam_dunks
         },
-        name => {
+        "Brook Lopez" => {
           :number
           :shoe
           :points
@@ -34,7 +34,7 @@ def game_hash
           :blocks
           :slam_dunks
         },
-        name => {
+        "Mason Plumlee" => {
           :number
           :shoe
           :points
@@ -44,7 +44,7 @@ def game_hash
           :blocks
           :slam_dunks
         },
-        name => {
+        "Jason Terry" => {
           :number
           :shoe
           :points
@@ -60,7 +60,7 @@ def game_hash
       :team_name => "Charlotte Hornets"
       :colors => ["Turquoise", "Purple"]
       :players => {
-        name => {
+        "Jeff Adrien" => {
           :number
           :shoe
           :points
@@ -70,7 +70,7 @@ def game_hash
           :blocks
           :slam_dunks
         },
-        name => {
+        "Bismak Biyombo" => {
           :number
           :shoe
           :points
@@ -80,7 +80,7 @@ def game_hash
           :blocks
           :slam_dunks
         },
-        name => {
+        "DeSagna Diop" => {
           :number
           :shoe
           :points
@@ -90,7 +90,7 @@ def game_hash
           :blocks
           :slam_dunks
         },
-        name => {
+        "Ben Gordon" => {
           :number
           :shoe
           :points
@@ -100,7 +100,7 @@ def game_hash
           :blocks
           :slam_dunks
         },
-        name => {
+        "Brendan Haywood" => {
           :number
           :shoe
           :points
