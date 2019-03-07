@@ -4,6 +4,16 @@ def game_hash
       :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
       :players => {
+        Alan Anderson
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        },
         name => {
           :number
           :shoe
@@ -13,14 +23,93 @@ def game_hash
           :steals
           :blocks
           :slam_dunks
-        }
+        },
+        name => {
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        },
+        name => {
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        },
+        name => {
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        },
       }
     }
     :away => {
-      :team_name
-      :colors
+      :team_name => "Charlotte Hornets"
+      :colors => ["Turquoise", "Purple"]
       :players => {
-        
+        name => {
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        },
+        name => {
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        },
+        name => {
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        },
+        name => {
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        },
+        name => {
+          :number
+          :shoe
+          :points
+          :rebounds
+          :assists
+          :steals
+          :blocks
+          :slam_dunks
+        },
       }
     }
   }
