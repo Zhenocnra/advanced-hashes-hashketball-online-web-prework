@@ -189,7 +189,7 @@ def player_numbers(team)
       end
     end
   end
-return array[0]
+return array
 end
 
 def player_stats
