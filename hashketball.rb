@@ -159,6 +159,7 @@ def team_colors(team_name)
   elsif
     team_name == "Charlotte Hornets"
     game_hash[:away][:colors]
+  end
 end
 
 def team_names
