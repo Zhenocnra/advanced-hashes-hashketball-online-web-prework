@@ -156,8 +156,8 @@ end
 def team_colors(team_name)
   if team_name == "Brooklyn_Nets"
     
-  else
-    
+  elsif
+    team_name == "Charlotte_"
 end
 
 def team_names
