@@ -121,7 +121,23 @@ def num_points_scored(player_name)
   
 end
 
+def show_size
+  
+end
 
+def team_colors
+  
+end
 
+def team_names
+  
+end
 
+def player_numbers
+  
+end
+
+def player_stats
+  
+end
 
