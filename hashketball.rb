@@ -164,6 +164,9 @@ end
 
 def team_names
   array = []
+  game_hash.each do |location, data|
+    data.each do |attribute, values|
+      
 end
 
 def player_numbers
