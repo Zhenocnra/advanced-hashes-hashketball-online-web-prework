@@ -12,7 +12,7 @@ def game_hash
           :assists => 12,
           :steals => 3,
           :blocks => 1,
-          :slam_dunks => 1,
+          :slam_dunks => 1
         },
         "Reggie Evans" => {
           :number => 30,
@@ -22,7 +22,7 @@ def game_hash
           :assists => 12,
           :steals => 12,
           :blocks => 12,
-          :slam_dunks => 7,
+          :slam_dunks => 7
         },
         "Brook Lopez" => {
           :number => 11,
@@ -32,7 +32,7 @@ def game_hash
           :assists => 10,
           :steals => 3,
           :blocks => 1,
-          :slam_dunks => 15,
+          :slam_dunks => 15
         },
         "Mason Plumlee" => {
           :number => 1,
@@ -42,7 +42,7 @@ def game_hash
           :assists => 6,
           :steals => 3,
           :blocks => 8,
-          :slam_dunks => 5,
+          :slam_dunks => 5
         },
         "Jason Terry" => {
           :number => 31,
@@ -52,7 +52,7 @@ def game_hash
           :assists => 2,
           :steals => 4,
           :blocks => 11,
-          :slam_dunks => 1,
+          :slam_dunks => 1
         }
       }
     }
@@ -68,7 +68,7 @@ def game_hash
           :assists => 1,
           :steals => 2,
           :blocks => 7,
-          :slam_dunks => 2,
+          :slam_dunks => 2
         },
         "Bismak Biyombo" => {
           :number => 0,
@@ -78,7 +78,7 @@ def game_hash
           :assists => 7,
           :steals => 7,
           :blocks => 15,
-          :slam_dunks => 10,
+          :slam_dunks => 10
         },
         "DeSagna Diop" => {
           :number => 2,
@@ -88,7 +88,7 @@ def game_hash
           :assists => 12,
           :steals => 4,
           :blocks => 5,
-          :slam_dunks => 5,
+          :slam_dunks => 5
         },
         "Ben Gordon" => {
           :number => 8,
@@ -98,7 +98,7 @@ def game_hash
           :assists => 2,
           :steals => 1,
           :blocks => 1,
-          :slam_dunks => 0,
+          :slam_dunks => 0
         },
         "Brendan Haywood" => {
           :number => 33,
@@ -108,7 +108,7 @@ def game_hash
           :assists => 12,
           :steals => 22,
           :blocks => 5,
-          :slam_dunks => 12,
+          :slam_dunks => 12
         }
       }
     }
