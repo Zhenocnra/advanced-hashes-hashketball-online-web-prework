@@ -204,7 +204,7 @@ end
   stat_list
 end
 
-def big_show_rebounds
+def big_shoe_rebounds
   shoe_sizes = []
   rebounds = 0
   game_hash.each do |location, data|
