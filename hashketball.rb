@@ -135,7 +135,7 @@ def num_points_scored(player_name)
 return array[0]
 end
 
-def show_size
+def shoe_size
   array = []
   game_hash.each do |location, data|
     data.each do |attribute, values|
