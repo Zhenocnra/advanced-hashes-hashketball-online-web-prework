@@ -171,6 +171,7 @@ def team_names
       end
     end
   end
+  return array[0]
 end
 
 def player_numbers
