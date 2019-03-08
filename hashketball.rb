@@ -175,7 +175,8 @@ def team_names
 end
 
 def player_numbers(team_name)
-  
+  array = []
+  game_hash.each do |
 end
 
 def player_stats
