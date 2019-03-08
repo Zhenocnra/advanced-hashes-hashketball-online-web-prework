@@ -205,5 +205,22 @@ end
 end
 
 def big_show_rebounds
-  
+  shoe_sizes = []
+  rebounds = 0
+  game_hash.each do |location, data|
+    data[:players].each do |name, stat|
+      shoe_sizes << stat[:shoe]
+    end
+  end
+  shoe_sizes.sort! {|x, y| y <=> x}
+  game_hash.each do |location, data|
+    data[:players].each do |name, stat|
+      if shoe_sizes[0] == stat[:shoe]
+        rebounds += stat[:rebounds]
+      else
+        nil
+      end
+    end
+  end
+  rebounds
 end
