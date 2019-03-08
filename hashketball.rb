@@ -8,7 +8,7 @@ def game_hash
     :players => {
       "Alan Anderson" => {
         :number => 0,
-        :shoe => "16",
+        :shoe => 16,
         :points => 22,
         :rebounds => 12,
         :assists => 12,
@@ -18,7 +18,7 @@ def game_hash
       },
       "Reggie Evans" => {
         :number => 30,
-        :shoe => "14",
+        :shoe => 14,
         :points => 12,
         :rebounds => 12,
         :assists => 12,
@@ -28,7 +28,7 @@ def game_hash
       },
       "Brook Lopez" => {
         :number => 11,
-        :shoe => "17",
+        :shoe => 17,
         :points => 17,
         :rebounds => 19,
         :assists => 10,
@@ -38,7 +38,7 @@ def game_hash
       },
       "Mason Plumlee" => {
         :number => 1,
-        :shoe => "19",
+        :shoe => 19,
         :points => 26,
         :rebounds => 12,
         :assists => 6,
@@ -48,7 +48,7 @@ def game_hash
       },
       "Jason Terry" => {
         :number => 31,
-        :shoe => "15",
+        :shoe => 15,
         :points => 19,
         :rebounds => 2,
         :assists => 2,
@@ -64,7 +64,7 @@ def game_hash
     :players => {
       "Jeff Adrien" => {
         :number => 4,
-        :shoe => "18",
+        :shoe => 18,
         :points => 10,
         :rebounds => 1,
         :assists => 1,
@@ -74,7 +74,7 @@ def game_hash
       },
       "Bismak Biyombo" => {
         :number => 0,
-        :shoe => "16",
+        :shoe => 16,
         :points => 12,
         :rebounds => 4,
         :assists => 7,
@@ -84,7 +84,7 @@ def game_hash
       },
       "Ben Gordon" => {
         :number => 8,
-        :shoe => "15",
+        :shoe => 15,
         :points => 33,
         :rebounds => 3,
         :assists => 2,
@@ -94,7 +94,7 @@ def game_hash
       },
       "Brendan Haywood" => {
         :number => 33,
-        :shoe => "15",
+        :shoe => 15,
         :points => 6,
         :rebounds => 12,
         :assists => 12,
@@ -104,7 +104,7 @@ def game_hash
       },
       "DeSagna Diop" => {
         :number => 2,
-        :shoe => "14",
+        :shoe => 14,
         :points => 24,
         :rebounds => 12,
         :assists => 12,
