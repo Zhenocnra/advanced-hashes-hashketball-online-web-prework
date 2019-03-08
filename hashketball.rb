@@ -143,7 +143,7 @@ def show_size
         values.each do |name, data|
           data.each do |key, stat|
             if name == player_name && key == :shoe
-              array << stat
+              array << stat.to_i
             end
           end
         end
