@@ -176,7 +176,20 @@ end
 
 def player_numbers(team_name)
   array = []
-  game_hash.each do |
+  game_hash.each do |location, data|
+    data.each do |attribute, values|
+      if attribute == :players
+        values.each do |name, data|
+          data.each do |key, stat|
+            if team_name == team && key == :number
+              array << stat
+            end
+          end
+        end
+      end
+    end
+  end
+return array
 end
 
 def player_stats
