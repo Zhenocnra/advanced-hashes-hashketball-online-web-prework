@@ -154,10 +154,10 @@ return array[0]
 end
 
 def team_colors(team_name)
-  if team_name == "Brooklyn_Nets"
+  if team_name == "Brooklyn Nets"
     
   elsif
-    team_name == "Charlotte_"
+    team_name == "Charlotte Hornets"
 end
 
 def team_names
