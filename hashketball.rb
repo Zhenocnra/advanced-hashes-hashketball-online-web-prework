@@ -118,7 +118,21 @@ def game_hash
 end
 
 def num_points_scored(player_name)
-  
+  array = []
+  game_hash.each do |location, data|
+    data.each do |attribute, values|
+      if attribute == :players
+        values.each do |name, data|
+          data.each do |key, stat|
+            if name == player_name && key == :points
+              array << stat
+            end
+          end
+        end
+      end
+    end
+  end
+return array[0]
 end
 
 def show_size
