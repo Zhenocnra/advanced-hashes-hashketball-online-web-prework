@@ -155,7 +155,7 @@ end
 
 def team_colors(team_name)
   if team_name == "Brooklyn Nets"
-    
+    game_hash[:]
   elsif
     team_name == "Charlotte Hornets"
 end
