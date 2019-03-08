@@ -188,7 +188,22 @@ def player_numbers(team)
   return array
 end
 
-def player_stats(player_name)
-  
+def player_stats(player)
+  stat_list = {}
+  game_hash.each do |location, data|
+    data[:players].each do |name, stat|
+      if name == player
+        stat.each do |key, value|
+          stat_list[key] = value
+        end
+      else
+        nil
+    end
+  end
 end
+  stat_list
+end
+
+
+
 
