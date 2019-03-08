@@ -153,8 +153,8 @@ def shoe_size(player_name)
 return array[0]
 end
 
-def team_colors
-  
+def team_colors(team_name)
+  if 
 end
 
 def team_names
